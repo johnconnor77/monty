@@ -9,26 +9,20 @@ void op_push(stack_t **stack, unsigned int line_number)
 	stack_t *newnode = NULL;
 	int n;
 	char *auxstrtok;
-	unsigned int j = 0;
 
 	newnode = malloc(sizeof(stack_t));
 	if (!newnode)
 	{
-		fprintf(stderr, "Error: malloc failed");
+		fprintf(stderr, "Error: malloc failed\n");
 		exit(EXIT_FAILURE);
 	}
 	auxstrtok = strtok(NULL, DELIMITER);
-	if (auxstrtok  == NULL)
+	if (!auxstrtok && !_isdigit(auxstrtok))
 	{
-		fprintf(stderr, "L%d: usage: push integer", line_number);
+		fprintf(stderr, "L%d: usage: push integer\n", line_number);
 		exit(EXIT_FAILURE);
 	}
-	for (j = 0; j < strlen(auxstrtok); j++)
-		if (isdigit(auxstrtok[j]) == 0)
-		{
-			fprintf(stderr, "L%d: usage: push integer", line_number);
-			exit(EXIT_FAILURE);
-		}
+
 
 	n = atoi(auxstrtok);
 	newnode->next = NULL;

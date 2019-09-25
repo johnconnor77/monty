@@ -1,0 +1,1 @@
+/usr/bin/cc -g -ggdb -Wall -Werror -Wextra -pedantic -g   CMakeFiles/monty.dir/main.c.o CMakeFiles/monty.dir/get_op_functions.c.o CMakeFiles/monty.dir/op_pall.c.o CMakeFiles/monty.dir/op_push.c.o CMakeFiles/monty.dir/free_dlistint.c.o CMakeFiles/monty.dir/_isdigit.c.o  -o monty 

@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jalondono/Holberton/monty/_isdigit.c
+monty.h
+/home/jalondono/Holberton/monty/monty.h
+
+/home/jalondono/Holberton/monty/monty.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+unistd.h
+-
+fcntl.h
+-
+ctype.h
+-
+

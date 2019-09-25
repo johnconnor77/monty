@@ -1,0 +1,3 @@
+/home/jalondono/Holberton/monty/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/jalondono/Holberton/monty/cmake-build-debug/CMakeFiles/monty.dir
+/home/jalondono/Holberton/monty/cmake-build-debug/CMakeFiles/edit_cache.dir
