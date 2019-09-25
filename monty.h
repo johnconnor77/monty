@@ -1,9 +1,5 @@
-//
-// Created by jalondono on 25/09/19.
-//
-
-#ifndef MONTY_MONTY_H
-#define MONTY_MONTY_H
+#ifndef _MONTY_H_
+#define _MONTY_H_
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -13,8 +9,7 @@
 #include <ctype.h>
 #define BUFFSIZE 1000
 #define DELIMITER " \t\n\r"
-#define UNUSED(var) (void)var
-
+#define UNUSED(var)(void)(var)
 
 /**
  * struct stack_s - doubly linked list representation of a stack (or queue)
@@ -27,9 +22,9 @@
  */
 typedef struct stack_s
 {
-    int n;
-    struct stack_s *prev;
-    struct stack_s *next;
+	int n;
+	struct stack_s *prev;
+	struct stack_s *next;
 } stack_t;
 /**
  * struct instruction_s - opcode and its function
@@ -41,8 +36,8 @@ typedef struct stack_s
  */
 typedef struct instruction_s
 {
-    char *opcode;
-    void (*f)(stack_t **stack, unsigned int line_number);
+	char *opcode;
+	void (*f)(stack_t **stack, unsigned int line_number);
 } instruction_t;
 
 instruction_t *get_op(const char *input);
@@ -51,6 +46,4 @@ void op_push(stack_t **stack, unsigned int line_number);
 void op_pall(stack_t **stack, unsigned int line_number);
 void free_stacklist(stack_t *head);
 
-
-
-#endif //MONTY_MONTY_H
+#endif
