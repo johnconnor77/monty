@@ -1,11 +1,8 @@
 #include "monty.h"
-
-
 /**
- *free_dlistint - program thisgs
+ *free_stacklist - function that free's dll
  *Result: always return 0
  *@head: pointer to structure
- *Return: value depending on function
  */
 void free_stacklist(stack_t *head)
 {
