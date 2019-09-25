@@ -4,7 +4,6 @@
 * on the stack starting from the top of the stack.
 * @stack: double linkes list that allocate data
 * @line_number: line of file that have been read
-*
 */
 void op_pall(stack_t **stack, unsigned int line_number)
 {
