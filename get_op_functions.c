@@ -18,6 +18,7 @@ instruction_t *get_op(const char *input)
 		{"nop", op_nop},
 		{"sub", op_sub},
 		{"div", op_div},
+		{"mul", op_mul},
 		{NULL, NULL}
 	};
 
