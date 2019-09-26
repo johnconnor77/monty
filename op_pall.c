@@ -8,7 +8,7 @@
 void op_pall(stack_t **stack, unsigned int line_number)
 {
 	stack_t *copystack = NULL;
-	
+
 	UNUSED(line_number);
 	copystack = *stack;
 	while (copystack)

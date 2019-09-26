@@ -9,16 +9,12 @@ int _isdigit(char *c)
 {
 	int i = 0;
 
-	if (c[0] == '-')
-		i = 1;
 	while (c[i] != '\0')
 	{
-		if ((c[i] >= '0' && c[i] <= '9'))
-		{
-			return (TRUE);
-		}
-		i++;
+		if ((c[i] >= 48 && c[i] <= 57) || c[i] == 45)
+			i++;
+		else
+			return (FALSE);
 	}
-	return (FALSE);
+	return (TRUE);
 }
-

@@ -37,7 +37,4 @@ void op_push(stack_t **stack, unsigned int line_number)
 	(*stack)->prev = newnode;
 	*stack = newnode;
 	return;
-
-
 }
-
