@@ -32,6 +32,14 @@ int main(int argc, char **argv)
 		line_number++;
 		token = strtok(buff, DELIMITER);
 
+		if (token == NULL)
+		{
+			if(buff)
+				free(buff);
+			buff = NULL;
+			continue;
+		}
+
 		f = get_op(token);
 
 		if (!f->opcode)
