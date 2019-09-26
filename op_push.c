@@ -22,8 +22,6 @@ void op_push(stack_t **stack, unsigned int line_number)
 		fprintf(stderr, "L%d: usage: push integer\n", line_number);
 		exit(EXIT_FAILURE);
 	}
-
-
 	n = atoi(auxstrtok);
 	newnode->next = NULL;
 	newnode->prev = NULL;
@@ -36,5 +34,4 @@ void op_push(stack_t **stack, unsigned int line_number)
 	newnode->next = *stack;
 	(*stack)->prev = newnode;
 	*stack = newnode;
-	return;
 }
