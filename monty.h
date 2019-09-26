@@ -45,6 +45,7 @@ instruction_t *get_op(const char *input);
 
 void op_push(stack_t **stack, unsigned int line_number);
 void op_pall(stack_t **stack, unsigned int line_number);
+void op_pint(stack_t **stack, unsigned int line_number);
 void free_stacklist(stack_t *head);
 int _isdigit(char *c);
 

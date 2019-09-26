@@ -11,6 +11,7 @@ instruction_t *get_op(const char *input)
 	instruction_t ops[] = {
 		{"push", op_push},
 		{"pall", op_pall},
+		{"pint", op_pint},
 		{NULL, NULL}
 	};
 
