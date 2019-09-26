@@ -16,6 +16,7 @@ instruction_t *get_op(const char *input)
 		{"swap", op_swap},
 		{"add", op_add},
 		{"nop", op_nop},
+		{"sub", op_sub},
 		{NULL, NULL}
 	};
 
