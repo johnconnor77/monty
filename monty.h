@@ -6,6 +6,7 @@
 #include <string.h>
 #include <unistd.h>
 #include <fcntl.h>
+#include <ctype.h>
 #define BUFFSIZE 1000
 #define DELIMITER " \t\n\r"
 #define UNUSED(var)(void)(var)
