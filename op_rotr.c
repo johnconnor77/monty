@@ -10,10 +10,7 @@ void op_rotr(stack_t **stack, unsigned int line_number)
 	stack_t *copystack = *stack;
 
 	UNUSED(line_number);
-	if ((*stack)->next == NULL)
-	{
-		exit(EXIT_SUCCESS);
-	}
+
 	while (copystack->next != NULL)
 	{
 		copystack = copystack->next;
