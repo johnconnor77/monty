@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/jalondono/Holberton/monty/_isdigit.c
-monty.h
-/home/jalondono/Holberton/monty/monty.h
-
 /home/jalondono/Holberton/monty/monty.h
 stdio.h
 -
@@ -21,6 +17,12 @@ unistd.h
 -
 fcntl.h
 -
-ctype.h
--
+
+/home/jalondono/Holberton/monty/op_add.c
+monty.h
+/home/jalondono/Holberton/monty/monty.h
+
+/home/jalondono/Holberton/monty/op_swap.c
+monty.h
+/home/jalondono/Holberton/monty/monty.h
 

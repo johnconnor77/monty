@@ -13,9 +13,21 @@ CMakeFiles/monty.dir/get_op_functions.c.o
 CMakeFiles/monty.dir/main.c.o
  /home/jalondono/Holberton/monty/main.c
  /home/jalondono/Holberton/monty/monty.h
+CMakeFiles/monty.dir/op_add.c.o
+ /home/jalondono/Holberton/monty/monty.h
+ /home/jalondono/Holberton/monty/op_add.c
 CMakeFiles/monty.dir/op_pall.c.o
  /home/jalondono/Holberton/monty/monty.h
  /home/jalondono/Holberton/monty/op_pall.c
+CMakeFiles/monty.dir/op_pint.c.o
+ /home/jalondono/Holberton/monty/monty.h
+ /home/jalondono/Holberton/monty/op_pint.c
+CMakeFiles/monty.dir/op_pop.c.o
+ /home/jalondono/Holberton/monty/monty.h
+ /home/jalondono/Holberton/monty/op_pop.c
 CMakeFiles/monty.dir/op_push.c.o
  /home/jalondono/Holberton/monty/monty.h
  /home/jalondono/Holberton/monty/op_push.c
+CMakeFiles/monty.dir/op_swap.c.o
+ /home/jalondono/Holberton/monty/monty.h
+ /home/jalondono/Holberton/monty/op_swap.c

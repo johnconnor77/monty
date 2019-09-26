@@ -231,6 +231,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/monty.dir/build.make CMakeFiles/monty.dir/main.c.s
 .PHONY : main.c.s
 
+op_add.o: op_add.c.o
+
+.PHONY : op_add.o
+
+# target to build an object file
+op_add.c.o:
+	$(MAKE) -f CMakeFiles/monty.dir/build.make CMakeFiles/monty.dir/op_add.c.o
+.PHONY : op_add.c.o
+
+op_add.i: op_add.c.i
+
+.PHONY : op_add.i
+
+# target to preprocess a source file
+op_add.c.i:
+	$(MAKE) -f CMakeFiles/monty.dir/build.make CMakeFiles/monty.dir/op_add.c.i
+.PHONY : op_add.c.i
+
+op_add.s: op_add.c.s
+
+.PHONY : op_add.s
+
+# target to generate assembly for a file
+op_add.c.s:
+	$(MAKE) -f CMakeFiles/monty.dir/build.make CMakeFiles/monty.dir/op_add.c.s
+.PHONY : op_add.c.s
+
 op_pall.o: op_pall.c.o
 
 .PHONY : op_pall.o
@@ -257,6 +284,60 @@ op_pall.s: op_pall.c.s
 op_pall.c.s:
 	$(MAKE) -f CMakeFiles/monty.dir/build.make CMakeFiles/monty.dir/op_pall.c.s
 .PHONY : op_pall.c.s
+
+op_pint.o: op_pint.c.o
+
+.PHONY : op_pint.o
+
+# target to build an object file
+op_pint.c.o:
+	$(MAKE) -f CMakeFiles/monty.dir/build.make CMakeFiles/monty.dir/op_pint.c.o
+.PHONY : op_pint.c.o
+
+op_pint.i: op_pint.c.i
+
+.PHONY : op_pint.i
+
+# target to preprocess a source file
+op_pint.c.i:
+	$(MAKE) -f CMakeFiles/monty.dir/build.make CMakeFiles/monty.dir/op_pint.c.i
+.PHONY : op_pint.c.i
+
+op_pint.s: op_pint.c.s
+
+.PHONY : op_pint.s
+
+# target to generate assembly for a file
+op_pint.c.s:
+	$(MAKE) -f CMakeFiles/monty.dir/build.make CMakeFiles/monty.dir/op_pint.c.s
+.PHONY : op_pint.c.s
+
+op_pop.o: op_pop.c.o
+
+.PHONY : op_pop.o
+
+# target to build an object file
+op_pop.c.o:
+	$(MAKE) -f CMakeFiles/monty.dir/build.make CMakeFiles/monty.dir/op_pop.c.o
+.PHONY : op_pop.c.o
+
+op_pop.i: op_pop.c.i
+
+.PHONY : op_pop.i
+
+# target to preprocess a source file
+op_pop.c.i:
+	$(MAKE) -f CMakeFiles/monty.dir/build.make CMakeFiles/monty.dir/op_pop.c.i
+.PHONY : op_pop.c.i
+
+op_pop.s: op_pop.c.s
+
+.PHONY : op_pop.s
+
+# target to generate assembly for a file
+op_pop.c.s:
+	$(MAKE) -f CMakeFiles/monty.dir/build.make CMakeFiles/monty.dir/op_pop.c.s
+.PHONY : op_pop.c.s
 
 op_push.o: op_push.c.o
 
@@ -285,6 +366,33 @@ op_push.c.s:
 	$(MAKE) -f CMakeFiles/monty.dir/build.make CMakeFiles/monty.dir/op_push.c.s
 .PHONY : op_push.c.s
 
+op_swap.o: op_swap.c.o
+
+.PHONY : op_swap.o
+
+# target to build an object file
+op_swap.c.o:
+	$(MAKE) -f CMakeFiles/monty.dir/build.make CMakeFiles/monty.dir/op_swap.c.o
+.PHONY : op_swap.c.o
+
+op_swap.i: op_swap.c.i
+
+.PHONY : op_swap.i
+
+# target to preprocess a source file
+op_swap.c.i:
+	$(MAKE) -f CMakeFiles/monty.dir/build.make CMakeFiles/monty.dir/op_swap.c.i
+.PHONY : op_swap.c.i
+
+op_swap.s: op_swap.c.s
+
+.PHONY : op_swap.s
+
+# target to generate assembly for a file
+op_swap.c.s:
+	$(MAKE) -f CMakeFiles/monty.dir/build.make CMakeFiles/monty.dir/op_swap.c.s
+.PHONY : op_swap.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -306,12 +414,24 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... op_add.o"
+	@echo "... op_add.i"
+	@echo "... op_add.s"
 	@echo "... op_pall.o"
 	@echo "... op_pall.i"
 	@echo "... op_pall.s"
+	@echo "... op_pint.o"
+	@echo "... op_pint.i"
+	@echo "... op_pint.s"
+	@echo "... op_pop.o"
+	@echo "... op_pop.i"
+	@echo "... op_pop.s"
 	@echo "... op_push.o"
 	@echo "... op_push.i"
 	@echo "... op_push.s"
+	@echo "... op_swap.o"
+	@echo "... op_swap.i"
+	@echo "... op_swap.s"
 .PHONY : help
 
 

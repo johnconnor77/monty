@@ -90,10 +90,22 @@
 		<Unit filename="/home/jalondono/Holberton/monty/main.c">
 			<Option target="monty"/>
 		</Unit>
+		<Unit filename="/home/jalondono/Holberton/monty/op_add.c">
+			<Option target="monty"/>
+		</Unit>
 		<Unit filename="/home/jalondono/Holberton/monty/op_pall.c">
 			<Option target="monty"/>
 		</Unit>
+		<Unit filename="/home/jalondono/Holberton/monty/op_pint.c">
+			<Option target="monty"/>
+		</Unit>
+		<Unit filename="/home/jalondono/Holberton/monty/op_pop.c">
+			<Option target="monty"/>
+		</Unit>
 		<Unit filename="/home/jalondono/Holberton/monty/op_push.c">
+			<Option target="monty"/>
+		</Unit>
+		<Unit filename="/home/jalondono/Holberton/monty/op_swap.c">
 			<Option target="monty"/>
 		</Unit>
 		<Unit filename="/home/jalondono/Holberton/monty/CMakeLists.txt">

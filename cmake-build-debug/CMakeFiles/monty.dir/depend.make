@@ -13,9 +13,21 @@ CMakeFiles/monty.dir/get_op_functions.c.o: ../monty.h
 CMakeFiles/monty.dir/main.c.o: ../main.c
 CMakeFiles/monty.dir/main.c.o: ../monty.h
 
+CMakeFiles/monty.dir/op_add.c.o: ../monty.h
+CMakeFiles/monty.dir/op_add.c.o: ../op_add.c
+
 CMakeFiles/monty.dir/op_pall.c.o: ../monty.h
 CMakeFiles/monty.dir/op_pall.c.o: ../op_pall.c
 
+CMakeFiles/monty.dir/op_pint.c.o: ../monty.h
+CMakeFiles/monty.dir/op_pint.c.o: ../op_pint.c
+
+CMakeFiles/monty.dir/op_pop.c.o: ../monty.h
+CMakeFiles/monty.dir/op_pop.c.o: ../op_pop.c
+
 CMakeFiles/monty.dir/op_push.c.o: ../monty.h
 CMakeFiles/monty.dir/op_push.c.o: ../op_push.c
+
+CMakeFiles/monty.dir/op_swap.c.o: ../monty.h
+CMakeFiles/monty.dir/op_swap.c.o: ../op_swap.c
 

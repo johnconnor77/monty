@@ -135,6 +135,58 @@ CMakeFiles/monty.dir/_isdigit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/monty.dir/_isdigit.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jalondono/Holberton/monty/_isdigit.c -o CMakeFiles/monty.dir/_isdigit.c.s
 
+CMakeFiles/monty.dir/op_pint.c.o: CMakeFiles/monty.dir/flags.make
+CMakeFiles/monty.dir/op_pint.c.o: ../op_pint.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jalondono/Holberton/monty/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/monty.dir/op_pint.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monty.dir/op_pint.c.o   -c /home/jalondono/Holberton/monty/op_pint.c
+
+CMakeFiles/monty.dir/op_pint.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/monty.dir/op_pint.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jalondono/Holberton/monty/op_pint.c > CMakeFiles/monty.dir/op_pint.c.i
+
+CMakeFiles/monty.dir/op_pint.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/monty.dir/op_pint.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jalondono/Holberton/monty/op_pint.c -o CMakeFiles/monty.dir/op_pint.c.s
+
+CMakeFiles/monty.dir/op_pop.c.o: CMakeFiles/monty.dir/flags.make
+CMakeFiles/monty.dir/op_pop.c.o: ../op_pop.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jalondono/Holberton/monty/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/monty.dir/op_pop.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monty.dir/op_pop.c.o   -c /home/jalondono/Holberton/monty/op_pop.c
+
+CMakeFiles/monty.dir/op_pop.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/monty.dir/op_pop.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jalondono/Holberton/monty/op_pop.c > CMakeFiles/monty.dir/op_pop.c.i
+
+CMakeFiles/monty.dir/op_pop.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/monty.dir/op_pop.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jalondono/Holberton/monty/op_pop.c -o CMakeFiles/monty.dir/op_pop.c.s
+
+CMakeFiles/monty.dir/op_swap.c.o: CMakeFiles/monty.dir/flags.make
+CMakeFiles/monty.dir/op_swap.c.o: ../op_swap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jalondono/Holberton/monty/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/monty.dir/op_swap.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monty.dir/op_swap.c.o   -c /home/jalondono/Holberton/monty/op_swap.c
+
+CMakeFiles/monty.dir/op_swap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/monty.dir/op_swap.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jalondono/Holberton/monty/op_swap.c > CMakeFiles/monty.dir/op_swap.c.i
+
+CMakeFiles/monty.dir/op_swap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/monty.dir/op_swap.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jalondono/Holberton/monty/op_swap.c -o CMakeFiles/monty.dir/op_swap.c.s
+
+CMakeFiles/monty.dir/op_add.c.o: CMakeFiles/monty.dir/flags.make
+CMakeFiles/monty.dir/op_add.c.o: ../op_add.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jalondono/Holberton/monty/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/monty.dir/op_add.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monty.dir/op_add.c.o   -c /home/jalondono/Holberton/monty/op_add.c
+
+CMakeFiles/monty.dir/op_add.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/monty.dir/op_add.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jalondono/Holberton/monty/op_add.c > CMakeFiles/monty.dir/op_add.c.i
+
+CMakeFiles/monty.dir/op_add.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/monty.dir/op_add.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jalondono/Holberton/monty/op_add.c -o CMakeFiles/monty.dir/op_add.c.s
+
 # Object files for target monty
 monty_OBJECTS = \
 "CMakeFiles/monty.dir/main.c.o" \
@@ -142,7 +194,11 @@ monty_OBJECTS = \
 "CMakeFiles/monty.dir/op_pall.c.o" \
 "CMakeFiles/monty.dir/op_push.c.o" \
 "CMakeFiles/monty.dir/free_dlistint.c.o" \
-"CMakeFiles/monty.dir/_isdigit.c.o"
+"CMakeFiles/monty.dir/_isdigit.c.o" \
+"CMakeFiles/monty.dir/op_pint.c.o" \
+"CMakeFiles/monty.dir/op_pop.c.o" \
+"CMakeFiles/monty.dir/op_swap.c.o" \
+"CMakeFiles/monty.dir/op_add.c.o"
 
 # External object files for target monty
 monty_EXTERNAL_OBJECTS =
@@ -153,9 +209,13 @@ monty: CMakeFiles/monty.dir/op_pall.c.o
 monty: CMakeFiles/monty.dir/op_push.c.o
 monty: CMakeFiles/monty.dir/free_dlistint.c.o
 monty: CMakeFiles/monty.dir/_isdigit.c.o
+monty: CMakeFiles/monty.dir/op_pint.c.o
+monty: CMakeFiles/monty.dir/op_pop.c.o
+monty: CMakeFiles/monty.dir/op_swap.c.o
+monty: CMakeFiles/monty.dir/op_add.c.o
 monty: CMakeFiles/monty.dir/build.make
 monty: CMakeFiles/monty.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jalondono/Holberton/monty/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable monty"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jalondono/Holberton/monty/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C executable monty"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/monty.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

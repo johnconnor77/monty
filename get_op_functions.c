@@ -13,6 +13,8 @@ instruction_t *get_op(const char *input)
 		{"pall", op_pall},
 		{"pint", op_pint},
 		{"pop", op_pop},
+		{"swap", op_swap},
+		{"add", op_add},
 		{NULL, NULL}
 	};
 

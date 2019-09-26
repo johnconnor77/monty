@@ -5,6 +5,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/monty.dir/op_push.c.o"
   "CMakeFiles/monty.dir/free_dlistint.c.o"
   "CMakeFiles/monty.dir/_isdigit.c.o"
+  "CMakeFiles/monty.dir/op_pint.c.o"
+  "CMakeFiles/monty.dir/op_pop.c.o"
+  "CMakeFiles/monty.dir/op_swap.c.o"
+  "CMakeFiles/monty.dir/op_add.c.o"
   "monty.pdb"
   "monty"
 )
