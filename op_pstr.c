@@ -13,7 +13,7 @@ void op_pstr(stack_t **stack, unsigned int line_number)
 
 	if (*stack == NULL)
 	{
-		fprintf(stdout, "\n");
+		printf("\n");
 		exit(EXIT_SUCCESS);
 
 	}
@@ -23,14 +23,14 @@ void op_pstr(stack_t **stack, unsigned int line_number)
 
 		if (!isascii(n))
 		{
-			exit(EXIT_SUCCESS);
+			break;
 		}
 		printf("%c", n);
 
 		copystack = copystack->next;
 	}
 
-	fprintf(stderr, "\n");
+	printf("\n");
 }
 
 
