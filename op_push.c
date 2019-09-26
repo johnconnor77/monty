@@ -17,7 +17,7 @@ void op_push(stack_t **stack, unsigned int line_number)
 		exit(EXIT_FAILURE);
 	}
 	auxstrtok = strtok(NULL, DELIMITER);
-	if (!auxstrtok && !_isdigit(auxstrtok))
+	if (!auxstrtok || !_isdigit(auxstrtok))
 	{
 		fprintf(stderr, "L%d: usage: push integer\n", line_number);
 		exit(EXIT_FAILURE);
