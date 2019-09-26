@@ -29,7 +29,7 @@ int main(int argc, char **argv)
 	{
 		line_number++;
 		token = strtok(buff, DELIMITER);
-		if (token == NULL)
+		if (token == NULL || token[0] == '#')
 		{
 			if (buff)
 				free(buff);
