@@ -18,13 +18,13 @@ int main(int argc, char **argv)
 
 	if (argc != 2)
 	{
-		fprintf(stderr, "USAGE:montyfile\n");
+		fprintf(stderr, "USAGE: monty file\n");
 		return (EXIT_FAILURE);
 	}
 	fd = fopen(argv[1], "r");
 	if (fd == NULL)
 	{
-		fprintf(stderr, "Error:Can'topenfile%s\n", argv[1]);
+		fprintf(stderr, "Error: Can't open file %s\n", argv[1]);
 		exit(EXIT_FAILURE);
 	}
 	while (getline(&buff, &buffsize, fd) != -1)
@@ -36,7 +36,7 @@ int main(int argc, char **argv)
 
 		if (!f->opcode)
 		{
-			fprintf(stderr, "L%d:unknowninstruction%s\n", line_number, token);
+			fprintf(stderr, "L%d: unknown instruction %s\n", line_number, token);
 			free(buff);
 			exit(EXIT_FAILURE);
 		}
