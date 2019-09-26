@@ -21,6 +21,7 @@ instruction_t *get_op(const char *input)
 		{"mul", op_mul},
 		{"mod", op_mod},
 		{"pchar", op_pchar},
+		{"pstr", op_pstr},
 		{NULL, NULL}
 	};
 
