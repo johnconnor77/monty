@@ -10,9 +10,12 @@ void op_pstr(stack_t **stack, unsigned int line_number)
 	int n;
 
 	UNUSED(line_number);
+
 	if (*stack == NULL)
 	{
-		fprintf(stderr, "\n");
+		fprintf(stdout, "\n");
+		exit(EXIT_SUCCESS);
+
 	}
 	while (copystack && copystack->n != '\0')
 	{
@@ -20,7 +23,7 @@ void op_pstr(stack_t **stack, unsigned int line_number)
 
 		if (!isascii(n))
 		{
-			break;
+			exit(EXIT_SUCCESS);
 		}
 		printf("%c", n);
 
