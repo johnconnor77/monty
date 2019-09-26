@@ -10,12 +10,10 @@ void op_pstr(stack_t **stack, unsigned int line_number)
 	int n;
 
 	UNUSED(line_number);
-
 	if (*stack == NULL)
 	{
 		fprintf(stderr, "\n");
 	}
-
 	while (copystack && copystack->n != '\0')
 	{
 		n = copystack->n;
@@ -24,15 +22,12 @@ void op_pstr(stack_t **stack, unsigned int line_number)
 		{
 			break;
 		}
-		printf("%c", copystack->n);
+		printf("%c", n);
 
 		copystack = copystack->next;
 	}
 
 	fprintf(stderr, "\n");
-
-
-
 }
 
 
