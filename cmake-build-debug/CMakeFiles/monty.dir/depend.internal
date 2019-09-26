@@ -16,6 +16,9 @@ CMakeFiles/monty.dir/main.c.o
 CMakeFiles/monty.dir/op_add.c.o
  /home/jalondono/Holberton/monty/monty.h
  /home/jalondono/Holberton/monty/op_add.c
+CMakeFiles/monty.dir/op_nop.c.o
+ /home/jalondono/Holberton/monty/monty.h
+ /home/jalondono/Holberton/monty/op_nop.c
 CMakeFiles/monty.dir/op_pall.c.o
  /home/jalondono/Holberton/monty/monty.h
  /home/jalondono/Holberton/monty/op_pall.c

@@ -16,6 +16,9 @@ CMakeFiles/monty.dir/main.c.o: ../monty.h
 CMakeFiles/monty.dir/op_add.c.o: ../monty.h
 CMakeFiles/monty.dir/op_add.c.o: ../op_add.c
 
+CMakeFiles/monty.dir/op_nop.c.o: ../monty.h
+CMakeFiles/monty.dir/op_nop.c.o: ../op_nop.c
+
 CMakeFiles/monty.dir/op_pall.c.o: ../monty.h
 CMakeFiles/monty.dir/op_pall.c.o: ../op_pall.c
 

@@ -258,6 +258,33 @@ op_add.c.s:
 	$(MAKE) -f CMakeFiles/monty.dir/build.make CMakeFiles/monty.dir/op_add.c.s
 .PHONY : op_add.c.s
 
+op_nop.o: op_nop.c.o
+
+.PHONY : op_nop.o
+
+# target to build an object file
+op_nop.c.o:
+	$(MAKE) -f CMakeFiles/monty.dir/build.make CMakeFiles/monty.dir/op_nop.c.o
+.PHONY : op_nop.c.o
+
+op_nop.i: op_nop.c.i
+
+.PHONY : op_nop.i
+
+# target to preprocess a source file
+op_nop.c.i:
+	$(MAKE) -f CMakeFiles/monty.dir/build.make CMakeFiles/monty.dir/op_nop.c.i
+.PHONY : op_nop.c.i
+
+op_nop.s: op_nop.c.s
+
+.PHONY : op_nop.s
+
+# target to generate assembly for a file
+op_nop.c.s:
+	$(MAKE) -f CMakeFiles/monty.dir/build.make CMakeFiles/monty.dir/op_nop.c.s
+.PHONY : op_nop.c.s
+
 op_pall.o: op_pall.c.o
 
 .PHONY : op_pall.o
@@ -417,6 +444,9 @@ help:
 	@echo "... op_add.o"
 	@echo "... op_add.i"
 	@echo "... op_add.s"
+	@echo "... op_nop.o"
+	@echo "... op_nop.i"
+	@echo "... op_nop.s"
 	@echo "... op_pall.o"
 	@echo "... op_pall.i"
 	@echo "... op_pall.s"

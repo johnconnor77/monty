@@ -9,6 +9,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/monty.dir/op_pop.c.o"
   "CMakeFiles/monty.dir/op_swap.c.o"
   "CMakeFiles/monty.dir/op_add.c.o"
+  "CMakeFiles/monty.dir/op_nop.c.o"
   "monty.pdb"
   "monty"
 )

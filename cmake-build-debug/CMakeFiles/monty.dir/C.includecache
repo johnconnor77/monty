@@ -6,6 +6,22 @@
 
 #IncludeRegexTransform: 
 
+/home/jalondono/Holberton/monty/_isdigit.c
+monty.h
+/home/jalondono/Holberton/monty/monty.h
+
+/home/jalondono/Holberton/monty/free_dlistint.c
+monty.h
+/home/jalondono/Holberton/monty/monty.h
+
+/home/jalondono/Holberton/monty/get_op_functions.c
+monty.h
+/home/jalondono/Holberton/monty/monty.h
+
+/home/jalondono/Holberton/monty/main.c
+monty.h
+/home/jalondono/Holberton/monty/monty.h
+
 /home/jalondono/Holberton/monty/monty.h
 stdio.h
 -
@@ -19,6 +35,26 @@ fcntl.h
 -
 
 /home/jalondono/Holberton/monty/op_add.c
+monty.h
+/home/jalondono/Holberton/monty/monty.h
+
+/home/jalondono/Holberton/monty/op_nop.c
+monty.h
+/home/jalondono/Holberton/monty/monty.h
+
+/home/jalondono/Holberton/monty/op_pall.c
+monty.h
+/home/jalondono/Holberton/monty/monty.h
+
+/home/jalondono/Holberton/monty/op_pint.c
+monty.h
+/home/jalondono/Holberton/monty/monty.h
+
+/home/jalondono/Holberton/monty/op_pop.c
+monty.h
+/home/jalondono/Holberton/monty/monty.h
+
+/home/jalondono/Holberton/monty/op_push.c
 monty.h
 /home/jalondono/Holberton/monty/monty.h
 

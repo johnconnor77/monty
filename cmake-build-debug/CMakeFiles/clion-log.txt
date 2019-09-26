@@ -1,4 +1,16 @@
 /home/jalondono/Downloads/CLion-2019.2.2/clion-2019.2.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/jalondono/Holberton/monty
 -- Configuring done
--- Generating done
+CMake Error at CMakeLists.txt:6 (add_executable):
+  Cannot find source file:
+
+    op_nop.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at CMakeLists.txt:6 (add_executable):
+  No SOURCES given to target: monty
+
+
 -- Build files have been written to: /home/jalondono/Holberton/monty/cmake-build-debug

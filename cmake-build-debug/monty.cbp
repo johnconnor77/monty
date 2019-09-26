@@ -93,6 +93,9 @@
 		<Unit filename="/home/jalondono/Holberton/monty/op_add.c">
 			<Option target="monty"/>
 		</Unit>
+		<Unit filename="/home/jalondono/Holberton/monty/op_nop.c">
+			<Option target="monty"/>
+		</Unit>
 		<Unit filename="/home/jalondono/Holberton/monty/op_pall.c">
 			<Option target="monty"/>
 		</Unit>
