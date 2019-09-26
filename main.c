@@ -7,14 +7,12 @@
 */
 int main(int argc, char **argv)
 {
-
 	FILE *fd;
 	char *buff = NULL, *token = NULL;
 	size_t buffsize = BUFFSIZE;
 	stack_t *stack = NULL;
 	instruction_t *f = NULL;
 	unsigned int line_number = 0;
-
 
 	if (argc != 2)
 	{
@@ -31,26 +29,20 @@ int main(int argc, char **argv)
 	{
 		line_number++;
 		token = strtok(buff, DELIMITER);
-
 		if (token == NULL)
 		{
-			if(buff)
+			if (buff)
 				free(buff);
 			buff = NULL;
-			continue;
-		}
-
+			continue; }
 		f = get_op(token);
-
 		if (!f->opcode)
 		{
 			fprintf(stderr, "L%d: unknown instruction %s\n", line_number, token);
 			free(buff);
-			exit(EXIT_FAILURE);
-		}
+			exit(EXIT_FAILURE); }
 		f->f(&stack, line_number);
-		free(f);
-	}
+		free(f); }
 	free(buff);
 	free_stacklist(stack);
 	fclose(fd);
