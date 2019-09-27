@@ -1,6 +1,7 @@
 #include "monty.h"
 /**
-* op_pstr - f prints the char at the top of the stack
+* op_pstr - function that prints each element from
+* the stack it's ascii code, otherwise kill program
 * @stack: double linkes list that allocate data
 * @line_number: line of file that have been read
 */
