@@ -9,7 +9,6 @@ void op_sub(stack_t **stack, unsigned int line_number)
 {
 	int copynumstack1, copynumstack2, res;
 
-
 	if (!*stack || !(*stack)->next)
 	{
 		fprintf(stderr, "L%d: can't sub, stack too short\n", line_number);
