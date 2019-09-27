@@ -1,7 +1,7 @@
 #include "monty.h"
 /**
-* op_mod - function that mod top next value
-* with the previous one
+* op_mod - function that computes the residual of
+* division between the top and the next one
 * @stack: double linkes list that allocate data
 * @line_number: line of file that have been read
 */
