@@ -1,6 +1,6 @@
 #include"monty.h"
 /**
-*main - Main program
+*main - Main program for treating monty codes
 *@argc: counter of arguments
 *@argv: vector of argument
 *Return: EXIT_FAILURE or EXIT_SUCCESS
