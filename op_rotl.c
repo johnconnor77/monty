@@ -11,7 +11,7 @@ void op_rotl(stack_t **stack, unsigned int line_number)
 
 	UNUSED(line_number);
 	if ((*stack)->next == NULL || *stack == NULL)
-		exit(EXIT_SUCCESS);
+		return;
 	while (copystack->next != NULL)
 	{
 		copystack = copystack->next;
