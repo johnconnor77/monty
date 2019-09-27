@@ -16,7 +16,8 @@ void op_push(stack_t **stack, unsigned int line_number)
 		fprintf(stderr, "Error: malloc failed\n");
 		exit(EXIT_FAILURE);
 	}
-	auxstrtok = strtok(NULL, DELIMITER);
+	/* strtok see's the entire program */
+	auxstrtok = strtok(NULL, DELIMITER);  
 	if (!auxstrtok || !_isdigit(auxstrtok))
 	{
 		fprintf(stderr, "L%d: usage: push integer\n", line_number);
