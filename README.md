@@ -30,6 +30,13 @@ What you should learn from this project:
 | swap          | Swaps the top two elements of the stack |
 | add           | Adds the top two elements of the stack |
 | nop           | Doesn't do anything* |
+| sub           | Subtracts the top element of the stack from the second top element of the stack |
+| div           | Divides the second top element of the stack by the top element of the stack |
+| mul           | Multiplies the second top element of the stack with the top element of the stack |
+| mod           | Computes the modulus of the second top element of the stack with the top element of the stack |
+| comments (#)  | Adds a # to the beginning of a line to put a comment in the file |
+| pchar         | Prints the char at the top of the stack |
+| pstr          | Prints the string starting at the top of the stack |
 
 
 Authors:
