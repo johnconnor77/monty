@@ -38,6 +38,19 @@ What you should learn from this project:
 | pchar         | Prints the char at the top of the stack |
 | pstr          | Prints the string starting at the top of the stack |
 
+## Other Files
+
+File Name | Description
+--- | ---
+`main.c` | Main file for the program
+`get_op_functions.c` | Returns the correct opcode for usage
+`monty.h` | Header file with prototype functions
+`_isdigit.c` | function that checks if an element is a digit or not
+`free_delistint.c` | function to free's a double linked list
+`bytecodes/` | folder with Monty codes used to test opcode functions
+`cmake-build-debug/ .idea/` | folders with aux variables for Clion runtime
+`CMakeLists.txt` | contains variables for makefile with Clion runtime
+
 
 Authors:
 * **Juan A. Londoño** - *Initial Work and Documentación* - [jalondono](https://github.com/jalondono)
