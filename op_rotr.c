@@ -1,6 +1,7 @@
 #include "monty.h"
 /**
-* op_rotr - function that rotates the stack to the top.
+* op_rotr - function that rotates the stack
+* to the top.
 * @stack: double linked list that allocate data
 * @line_number: line of file that have been read
 */
