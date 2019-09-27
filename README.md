@@ -4,6 +4,8 @@
 ## The Monty Language Interpreter
 The main goal of this project is learning about stacks and queues and how to implement it by using monty scripts (files that extends with .m).
 
+<img align="center" src="https://www.lavanguardia.com/r/GODO/LV/p5/WebSite/2018/03/24/Recortada/LV_20140626_LV_VIDA_D_54411314884-kS1G-U441898494926eS-992x558@LaVanguardia-Web.jpg" width="100%"/>
+
 ## Environment
 Ubuntu 14.04 LTS using Vagrant in VirtualBox
 
