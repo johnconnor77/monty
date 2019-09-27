@@ -1,7 +1,7 @@
 #include "monty.h"
 /**
-* op_rotl - function that changes the top value
- * with the next one, just values not address
+* op_rotl - function that rotates the stack
+* to the bottom
 * @stack: double linkes list that allocate data
 * @line_number: line of file that have been read
 */
