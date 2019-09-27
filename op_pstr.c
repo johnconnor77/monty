@@ -14,8 +14,6 @@ void op_pstr(stack_t **stack, unsigned int line_number)
 	if (*stack == NULL)
 	{
 		printf("\n");
-		exit(EXIT_SUCCESS);
-
 	}
 	while (copystack && copystack->n != '\0')
 	{
