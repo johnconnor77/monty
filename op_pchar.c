@@ -1,6 +1,7 @@
 #include "monty.h"
 /**
-* op_pchar - f prints the char at the top of the stack
+* op_pchar - function that prints the char
+* allocated as asccii code at the top of the stack
 * @stack: double linkes list that allocate data
 * @line_number: line of file that have been read
 */
