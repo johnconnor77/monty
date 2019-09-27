@@ -53,6 +53,35 @@ File Name | Description
 `cmake-build-debug/ .idea/` | folders with aux variables for Clion runtime
 `CMakeLists.txt` | contains variables for makefile with Clion runtime
 
+## Example Usage
+```
+USER$ cat -e bytecodes/00.m
+push 0$
+push 1$
+push 2$
+  push 3$
+                   pall    $
+push 4$
+    push 5    $
+      push    6        $
+pall$
+
+USER$ ./monty ./bytecodes/00.m
+3
+2
+1
+0
+6
+5
+4
+3
+2
+1
+0
+USER$
+```
+
+
 
 Authors:
 * **Juan A. Londoño** - *Initial Work and Documentación* - [jalondono](https://github.com/jalondono)
