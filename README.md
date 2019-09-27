@@ -9,6 +9,15 @@ The main goal of this project is learning about stacks and queues and how to imp
 ## Environment
 Ubuntu 14.04 LTS using Vagrant in VirtualBox
 
+## How to install
+1. Clone the repository below
+
+`https://github.com/johnconnor77/monty`
+
+2. Compile the program again (optional)
+
+`gcc -Wall -Werror -Wextra -pedantic *.c -o monty`
+
 ## Description
 What you should learn from this project:
 
