@@ -39,6 +39,9 @@ What you should learn from this project:
 | comments (#)  | Adds a # to the beginning of a line to put a comment in the file |
 | pchar         | Prints the char at the top of the stack |
 | pstr          | Prints the string starting at the top of the stack |
+| rotl          | rotates the stack to the top |
+| rotr          | rotates the stack to the bottom |
+
 
 ## Other Files
 
