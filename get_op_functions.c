@@ -1,8 +1,8 @@
 #include "monty.h"
 /**
-* get_op - function for tracking the correct one
+* get_op - function for tracking the opcode
 * @input: pointer char that contains what comes from inline
-* Return: the correctly instruction for following
+* Return: the correctly instruction or NULL if fails
 */
 instruction_t *get_op(const char *input)
 {
